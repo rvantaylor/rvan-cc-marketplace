@@ -2,7 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(mkdir -p .claude/*)",
-      "Edit(.claude/**)"
+      "Edit(.claude/*)"
     ]
   },
   "env": {
@@ -20,7 +20,7 @@
   "hooks": {
     "SessionStart": [
       {
-        "matcher": "startup",
+        "matcher": "",
         "hooks": [
           {
             "type": "command",
