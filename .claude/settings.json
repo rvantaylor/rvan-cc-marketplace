@@ -1,0 +1,14 @@
+{
+  "env": {
+    "PHOENIX_ENDPOINT": "http://localhost:6006",
+    "ARIZE_TRACE_ENABLED": "true",
+    "ARIZE_PROJECT_NAME": "rvan-cc-marketplace"
+  },
+  "enabledPlugins": {
+    "claude-code-tracing@arize-claude-plugin": true,
+    "plugin-dev@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "superpowers@superpowers-dev": true,
+    "arize-platform@arize-claude-plugin": true
+  }
+}
