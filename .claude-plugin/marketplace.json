@@ -1,0 +1,20 @@
+{
+  "name": "rvan-cc-marketplace",
+  "owner": {
+    "name": "Ryan Taylor",
+    "email": "rvantaylor@gmail.com"
+  },
+  "metadata": {
+    "description": "Ryan Taylor's personal Claude Code plugin marketplace",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "mac-notifications",
+      "description": "macOS system sounds for Claude Code lifecycle events — distinct sounds when Claude finishes, needs attention, requests permission, or completes a task.",
+      "category": "productivity",
+      "source": "mac-notifications",
+      "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/mac-notifications"
+    }
+  ]
+}

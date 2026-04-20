@@ -1,0 +1,30 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Glass",
+        "statusMessage": "Playing stop sound"
+      }
+    ],
+    "TaskCompleted": [
+      {
+        "type": "command",
+        "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Morse"
+      }
+    ],
+    "Notification": [
+      {
+        "type": "command",
+        "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Ping",
+        "matcher": "idle_prompt|auth_success|elicitation_dialog"
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "type": "command",
+        "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Tink"
+      }
+    ]
+  }
+}
