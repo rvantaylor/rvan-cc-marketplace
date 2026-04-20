@@ -1,0 +1,14 @@
+{
+  "name": "mac-notifications",
+  "version": "0.1.0",
+  "description": "macOS system sounds for Claude Code lifecycle events",
+  "category": "productivity",
+  "author": {
+    "name": "Ryan Taylor",
+    "email": "rvantaylor@gmail.com"
+  },
+  "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/mac-notifications",
+  "repository": "https://github.com/rvantaylor/rvan-cc-marketplace",
+  "license": "MIT",
+  "keywords": ["macos", "notifications", "sounds", "hooks"]
+}
