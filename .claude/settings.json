@@ -1,10 +1,4 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(mkdir -p .claude/*)",
-      "Edit(.claude/*)"
-    ]
-  },
   "env": {
     "PHOENIX_ENDPOINT": "http://localhost:6006",
     "ARIZE_TRACE_ENABLED": "true",
