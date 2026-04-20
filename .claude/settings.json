@@ -1,4 +1,10 @@
 {
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .claude/*)",
+      "Edit(.claude/**)"
+    ]
+  },
   "env": {
     "PHOENIX_ENDPOINT": "http://localhost:6006",
     "ARIZE_TRACE_ENABLED": "true",
@@ -10,5 +16,30 @@
     "skill-creator@claude-plugins-official": true,
     "superpowers@superpowers-dev": true,
     "arize-platform@arize-claude-plugin": true
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/phoenix-start.sh",
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/phoenix-stop.sh"
+          }
+        ]
+      }
+    ]
   }
 }
