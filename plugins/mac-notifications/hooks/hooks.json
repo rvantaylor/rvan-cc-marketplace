@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Glass",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/play-sound.sh\" Glass",
             "statusMessage": "Playing stop sound"
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Morse"
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/play-sound.sh\" Morse"
           }
         ]
       }
@@ -29,7 +29,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Ping"
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/play-sound.sh\" Ping"
           }
         ]
       }
@@ -40,7 +40,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash \"$(dirname \"$0\")/scripts/play-sound.sh\" Tink"
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/scripts/play-sound.sh\" Tink"
           }
         ]
       }
