@@ -9,7 +9,8 @@
     "plugin-dev@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
     "superpowers@superpowers-dev": true,
-    "arize-platform@arize-claude-plugin": true
+    "arize-platform@arize-claude-plugin": true,
+    "imessage@claude-plugins-official": true
   },
   "hooks": {
     "SessionStart": [
