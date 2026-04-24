@@ -1,0 +1,13 @@
+{
+  "name": "obsidian",
+  "version": "0.1.0",
+  "description": "Claude Code integration for Obsidian vaults.",
+  "category": "productivity",
+  "author": {
+    "name": "Ryan Taylor",
+    "email": "rvantaylor@gmail.com"
+  },
+  "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/obsidian",
+  "repository": "https://github.com/rvantaylor/rvan-cc-marketplace",
+  "keywords": ["obsidian", "notes", "knowledge-base"]
+}
