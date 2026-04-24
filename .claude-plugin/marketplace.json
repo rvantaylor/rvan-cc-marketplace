@@ -13,8 +13,22 @@
       "name": "mac-notifications",
       "description": "macOS system sounds for Claude Code lifecycle events — distinct sounds when Claude finishes, needs attention, requests permission, or completes a task.",
       "category": "productivity",
-      "source": "./plugins/mac-notifications",
+      "source": "mac-notifications",
       "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/mac-notifications"
+    },
+    {
+      "name": "obsidian",
+      "description": "Claude Code integration for Obsidian vaults.",
+      "category": "productivity",
+      "source": "obsidian",
+      "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/obsidian"
+    },
+    {
+      "name": "arize-phoenix",
+      "description": "Claude Code integration for Arize Phoenix tracing and evaluation.",
+      "category": "observability",
+      "source": "arize-phoenix",
+      "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/arize-phoenix"
     }
   ]
 }
