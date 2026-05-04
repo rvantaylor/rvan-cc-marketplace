@@ -2,3 +2,4 @@ references
 .claude/settings.local.json
 docs
 .worktrees/
+.claude/skills/*-workspace/
