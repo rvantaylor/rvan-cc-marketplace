@@ -27,7 +27,7 @@
       "name": "arize-phoenix",
       "description": "Claude Code integration for Arize Phoenix tracing and evaluation.",
       "category": "observability",
-      "source": "arize-phoenix",
+      "source": "claude-code-observability",
       "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/arize-phoenix"
     }
   ]

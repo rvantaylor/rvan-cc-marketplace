@@ -1,4 +1,4 @@
-# arize-phoenix
+# claude-code-observability
 
 Claude Code integration for Arize Phoenix tracing and evaluation.
 
