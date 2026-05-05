@@ -9,6 +9,12 @@ if [ -n "$PYTHON_SCRIPTS" ]; then
   export PATH="$PYTHON_SCRIPTS:$PATH"
 fi
 
+# Surface a helpful hint if phoenix CLI is missing
+if ! command -v phoenix > /dev/null 2>&1; then
+  echo "[claude-code-observability] phoenix CLI not found — install with: pip install --user arize-phoenix" >&2
+  exit 0
+fi
+
 # Idempotent: only start if not already running
 if pgrep -f 'phoenix serve' > /dev/null 2>&1; then
   exit 0

@@ -1,0 +1,13 @@
+{
+  "name": "claude-code-observability",
+  "version": "0.1.0",
+  "description": "Local Arize Phoenix lifecycle management and MCP server for Claude Code observability.",
+  "category": "observability",
+  "author": {
+    "name": "Ryan Taylor",
+    "email": "rvantaylor@gmail.com"
+  },
+  "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/claude-code-observability",
+  "repository": "https://github.com/rvantaylor/rvan-cc-marketplace",
+  "keywords": ["arize", "phoenix", "tracing", "observability"]
+}
