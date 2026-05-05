@@ -10,31 +10,7 @@
     "skill-creator@claude-plugins-official": true,
     "superpowers@superpowers-dev": true,
     "arize-platform@arize-claude-plugin": true,
-    "imessage@claude-plugins-official": true
-  },
-  "hooks": {
-    "SessionStart": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/hooks/phoenix-start.sh",
-            "async": true
-          }
-        ]
-      }
-    ],
-    "SessionEnd": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": ".claude/hooks/phoenix-stop.sh"
-          }
-        ]
-      }
-    ]
+    "imessage@claude-plugins-official": true,
+    "claude-code-observability@rvan-cc-marketplace": true
   }
 }
