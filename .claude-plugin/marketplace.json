@@ -24,11 +24,11 @@
       "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/obsidian"
     },
     {
-      "name": "arize-phoenix",
-      "description": "Claude Code integration for Arize Phoenix tracing and evaluation.",
+      "name": "claude-code-observability",
+      "description": "Local Arize Phoenix lifecycle management and bundled MCP server for Claude Code observability. Requires the claude-code-tracing companion plugin for span emission.",
       "category": "observability",
       "source": "claude-code-observability",
-      "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/arize-phoenix"
+      "homepage": "https://github.com/rvantaylor/rvan-cc-marketplace/tree/main/plugins/claude-code-observability"
     }
   ]
 }
