@@ -69,7 +69,7 @@ If the spec file does not exist on disk, stop with:
 ## Step 4: Create the feature branch
 
 ```bash
-SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed 's/^-\|-$//g' | cut -c1-50)
+SLUG=$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g' | sed 's/--*/-/g' | sed -E 's/^-|-$//g' | cut -c1-50)
 BRANCH="feat/issue-${N}-${SLUG}"
 git checkout -b "$BRANCH"
 ```
